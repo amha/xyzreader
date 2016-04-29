@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <item name="android:colorPrimary">#F44336</item>
-        <item name="android:colorPrimaryDark">#B71C1C</item>
-        <item name="android:colorAccent">#00BFA5</item>
-
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
     </style>
 
     <style name="Theme.Bacon.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
+    <style name="Theme.Bacon.Toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="Theme.Bacon.ArticleText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/lightText</item>
+        <item name="android:textColorLink">@color/theme_accent</item>
+    </style>
+
+    <style name="Theme.Bacon.SmallText">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/lightText</item>
+    </style>
 </resources>

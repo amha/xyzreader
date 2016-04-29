@@ -16,10 +16,20 @@
 -->
 
 <resources>
+    <!-- Legacy color values -->
     <color name="photo_placeholder">#ccc</color>
-
-    <color name="theme_primary">#04561A</color>
+    <color name="theme_primary">#04561a</color>
     <color name="theme_primary_dark">#04561A</color>
     <color name="theme_accent">#04561A</color>
     <color name="ltgray">#ffe0e0e0</color>
+
+    <!-- Updated Styles -->
+    <!-- General Styles -->
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
+    <color name="colorAccent">#651FFF</color>
+
+    <!-- Text Styles -->
+    <color name="lightText">#757575</color>
+    <color name="darkText">#616161</color>
 </resources>
