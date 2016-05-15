@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorPrimary">@color/colorPrimary</item>
         <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorAccent">@color/colorAccent1</item>
     </style>
 
     <style name="Theme.Bacon.Detail">
@@ -14,10 +15,16 @@
         <item name="android:background">@color/colorPrimary</item>
     </style>
 
+    <style name="Theme.Bacon.FAB">
+        <item name="android:elevation">@dimen/fab_elevation</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:background">@drawable/add_fab_background</item>
+    </style>
+
     <style name="Theme.Bacon.ArticleText">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/lightText</item>
-        <item name="android:textColorLink">@color/theme_accent</item>
+        <item name="android:textColorLink">@color/colorPrimaryDark</item>
     </style>
 
     <style name="Theme.Bacon.SmallText">

@@ -27,7 +27,8 @@
     <!-- General Styles -->
     <color name="colorPrimary">#F44336</color>
     <color name="colorPrimaryDark">#B71C1C</color>
-    <color name="colorAccent">#651FFF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent1">#651FFF</color>
 
     <!-- Text Styles -->
     <color name="lightText">#757575</color>
