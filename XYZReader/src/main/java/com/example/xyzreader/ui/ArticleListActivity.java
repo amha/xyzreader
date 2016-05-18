@@ -49,10 +49,6 @@ public class ArticleListActivity extends AppCompatActivity implements
         setSupportActionBar(mToolbar);
         final View toolbarContainerView = findViewById(R.id.appbar);
 
-        // Setting title
-        collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar_layout);
-        collapsingToolbarLayout.setTitle(getResources().getString(R.string.app_name));
-
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
         mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override

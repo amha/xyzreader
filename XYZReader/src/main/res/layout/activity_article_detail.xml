@@ -9,24 +9,14 @@
 
     <FrameLayout
         android:id="@+id/up_container"
-        android:background="@android:color/transparent"
         android:layout_width="match_parent"
-        android:layout_height="?actionBarSize">
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
 
         <android.support.v7.widget.Toolbar
+            android:id="@+id/action_up"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:title=""
-            android:paddingTop="10dp"
-            android:id="@+id/action_up"/>
-
-        <!--<ImageButton-->
-        <!--android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
-        <!--android:id="@+id/action_up"-->
-        <!--android:layout_width="56dp"-->
-        <!--android:layout_height="?actionBarSize"-->
-        <!--android:background="?selectableItemBackgroundBorderless"-->
-        <!--android:contentDescription="@string/up"-->
-        <!--android:src="@drawable/ic_arrow_back" />-->
+            android:gravity="top" />
     </FrameLayout>
 </FrameLayout>
